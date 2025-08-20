@@ -8,3 +8,6 @@ def get_user_guess():
                 print("please enter a number between 1 and 100.")
         except ValueError:
             print("invalid input! please enter a number.")      
+import random
+def generate_random_number():
+    return random.randint(1,100)
